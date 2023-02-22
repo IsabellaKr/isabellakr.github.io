@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!----------------------------------- Google Fonts ----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Josefin+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!----------------------------------- Fontawesome (Icons) ----------------------------------->
+    <script src="https://kit.fontawesome.com/5e03311026.js" crossorigin="anonymous"></script>
+
+    <title>Isabella Kron</title>
+
+    <!----------------------------------- Bootstrap ----------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+
+<!----------------------------------- Navbar ----------------------------------->
+
+  <nav class="navbar navbar-dark navbar-expand-sm">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#willkommen">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#projects">Projekte</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link nav-link-vita" href="#cv">Vita</a>
+          </li>
+        </ul>
+      </div>  
+    </div>
+  </nav>
+
+    <!----------------------------------- Home ----------------------------------->
+    
+    <div class="header" id="bg-animation">
+
+      <label class="switch">
+        <input type="checkbox" id="mode-switch">
+        <span class="slider round">
+          <span class="crater crater--1"></span>
+          <span class="crater crater--2"></span>
+          <span class="crater crater--3"></span>
+        </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+      </label>
+
+      <div class="highlighter highlight-name"> </div>
+      <div class="highlighter highlight-title"> </div>
+
+      <div class="header-content">
+        <h1 class="my-name">Isabella Kron</h1>
+        <h2>Frontend Development</h2>
+      </div>
+
+      <div class="header-foot">
+        <p> Get to know me. </p>
+        <a id="arrow-1" href="#willkommen" class="arrow-bounce-in fa-solid fa-chevron-down fa-2x"></a>
+      </div>
+    </div>
+
+    <!----------------------------------- About Me ----------------------------------->
+
+    <div class="about-me-container" >
+
+      <div>
+        <hr class="hr-title hr-title-about-me" data-content="About Me">
+      </div>
+
+      <div class="about-me" id="willkommen">
+        <h4 class="about-me-title">Hi, <br>ich bin Isa <br> Ich mache <br> Websites</h4>
+        <div class="banner-container">
+          <div class="message">
+            <div class="word1"> schön</div>
+            <div class="word2"> usable</div>
+            <div class="word3"> responsive</div>
+          </div>
+        </div>
+        <div class="info-container">
+          <div class="info-container">
+            <p class="info">Durch die Ingenieurswissenschaften festigte sich meine Vorliebe zum <br><span class="highlighted-words">Frontend-Development.</span><br> Seitdem gestalte ich mit großer Leidenschaft Websites.</p>
+          </div>  
+        </div> 
+        <a id="arrow-2" href="#skills" class="arrow-bounce-in fa-solid fa-chevron-down fa-2x"></a> 
+      </div>
+    </div>
+
+    <!----------------------------------- Skills ----------------------------------->
+
+    <div class="skills-container" id="skills">
+
+      <div>
+        <hr class="hr-title" data-content="Skills">
+      </div>
+
+      <div class="row skills">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <i class="fa-brands fa-5x fa-html5 skill-icon"></i>
+          <p>HTML 5</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <i class="fa-brands fa-5x fa-css3-alt skill-icon"></i>
+          <p>CSS 3</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <i class="fa-brands fa-5x fa-square-js skill-icon"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <i class="fa-brands fa-5x fa-bootstrap skill-icon"></i>
+          <p>Bootstrap 5</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <img class="jquery-icon skill-icon" src="images/icons8-jquery-80.png">
+          <p>jQuery</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <p>tbd</p>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------- Projects ----------------------------------->
+
+    <div class="projects-container" id="projects">
+
+      <div>
+        <hr class="hr-title" data-content="Projekte">
+      </div>
+      <div class="row projects">
+        <div class="col project-col col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="project-card card">
+            <div class="project-card-header">
+              <h3 class="project-title">Projekt 1</h3>
+            </div>
+            <div class="project-card-body">
+              <p>Inhalt</p>
+            </div>
+            <div class="project-card-footer d-grid gap-2">
+              <p>Hier kommt die Projekt-Beschreibung rein.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col project-col col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="project-card card">
+            <div class="project-card-header">
+              <h3 class="project-title">Projekt 2</h3>
+            </div>
+            <div class="project-card-body">
+              <p>Inhalt</p>
+            </div>
+            <div class="project-card-footer d-grid gap-2">
+              <p>Hier kommt die Projekt-Beschreibung rein.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col project-col col-lg-4 col-md-12 col-sm-12 col-12">
+          <div class="project-card card">
+            <div class="project-card-header">
+              <h3 class="project-title">Projekt 3</h3>
+            </div>
+            <div class="project-card-body">
+              <p>Inhalt</p>
+            </div>
+            <div class="project-card-footer d-grid gap-2">
+              <p>Hier kommt die Projekt-Beschreibung rein.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!----------------------------------- CV ----------------------------------->
+
+    <div class="experience-container" id="cv">
+
+      <div>
+        <hr class="hr-title" data-content="Vita">
+      </div>
+
+      <div class="CV">
+        <div class="timeline">
+          <div class="timeline-card">
+            <div class="checkpoint">
+              <div class="timeline-card-header">
+                <div class="title">Consultant</div>
+                <div class="company-name">seit 08/2021 | 4ACES GmbH | Remote</div>
+              </div>
+              <div class="expand-closed"><p>Beraterin in der elektrischen Entwicklung (Integration) im Projekt- und Fehlermanagement<br> VBA<br> Konzeptionierung und Durchführung von Workshops <br>Jira <br>Confluence </p></div>
+            </div>
+          </div>
+          <div class="timeline-card">
+            <div class="checkpoint">
+              <div class="timeline-card-header">
+                <div class="title">E-Commerce</div>
+                <div class="company-name">05/2017 bis 08/2021 | Selbständigkeit | Wolfsburg</div>
+              </div>
+              <div class="expand-closed"><p>Grafikdesign mit ProCreate<br>Canva<br>Etsy<br>Social Media Management</p></div>
+            </div>
+          </div>
+          <div class="timeline-card">
+            <div class="checkpoint">
+              <div class="timeline-card-header">
+                <div class="title">Praktikum & BA</div>
+                <div class="company-name">03/2020 - 09/2020 | Volkswagen AG | Entwicklung Gesamtfahrzeug</div>
+              </div>
+              <div class="expand-closed"><p>Praxissemester in der Gesamtfahrzeug-Entwicklung, Bereich HMI<br>Bachelorarbeit: Konzeptionierung eines Funktionszugriffs nach Usability- und UX-Anforderungen (Thema UX/UI im HMI) <br> Note: 1,0</p></div>
+            </div>
+          </div>
+          <div class="timeline-card">
+            <div class="checkpoint">
+              <div class="timeline-card-header">
+                <div class="title">WING Studium</div>
+                <div class="company-name">09/2017 - 09/2020 | Ostfalia Hochschule | Wolfsburg</div>
+              </div>
+              <div class="expand-closed"><p>Wirtschaftsingenieurwesen (Abschluss: Bachelor of Engineering)<br> Wahlfach: New Work - agile Arbeitswelten (SCRUM als Leistungsnachweis)<br>Frontend-Programmierung<br>Programmierung in MATLAB<br>Javascript<br>3D-Konstruktion in CATIA  </p></div>
+            </div>
+          </div>
+          <div class="timeline-card">
+            <div class="checkpoint">
+              <div class="timeline-card-header">
+                <div class="title">Handelsfachwirt</div>
+                <div class="company-name">08/2014 - 07/2017 | Thalia Holding GmbH | Braunschweig</div>
+              </div>
+              <div class="expand-closed"><p>Inklusive Ausbildereignung nach AEVO (IHK Hannover) </p></div>
+            </div>
+          </div>
+          <div class="timeline-card">
+            <div class="checkpoint">
+              <div class="timeline-card-header">
+                <div class="title">Computervisualistik</div>
+                <div class="company-name">09/2013 - 07/2014 | Otto-von-Guericke Universität | Magdeburg</div>
+              </div>
+              <div class="expand-closed"><p>Algorithmen und Datenstrukturen<br> Projekt: Top-Down-Spiel in Java<br> Industrial Design</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------- Footer ----------------------------------->
+
+    <div>
+      <hr class="hr-title" data-content="">
+    </div>
+
+    <div class="footer">
+      <a href="mailto:isabella.kron@googlemail.com"><i class="socials fa-solid fa-envelope fa-2x"></i></a>
+      <p class="copyright">©Copyright 2023 Isabella Kron</p>
+    </div>
+
+    <!----------------------------------- JS ----------------------------------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      VANTA.BIRDS({
+        el: "#bg-animation",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color1: 0xd7776a,
+        color2: 0xd98c7a,
+        colorMode: "lerp",
+        quantity: 2.00,
+        backgroundAlpha: 0.00
+    })
+    </script>
+
+  </body>
+</html>
